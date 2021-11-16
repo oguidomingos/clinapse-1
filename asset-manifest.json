@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/clinapse/static/js/main.b78bbf53.chunk.js",
+    "main.js.map": "/clinapse/static/js/main.b78bbf53.chunk.js.map",
+    "runtime-main.js": "/clinapse/static/js/runtime-main.e1823066.js",
+    "runtime-main.js.map": "/clinapse/static/js/runtime-main.e1823066.js.map",
+    "static/css/2.4c63bfce.chunk.css": "/clinapse/static/css/2.4c63bfce.chunk.css",
+    "static/js/2.c8ae8a8f.chunk.js": "/clinapse/static/js/2.c8ae8a8f.chunk.js",
+    "static/js/2.c8ae8a8f.chunk.js.map": "/clinapse/static/js/2.c8ae8a8f.chunk.js.map",
+    "index.html": "/clinapse/index.html",
+    "static/css/2.4c63bfce.chunk.css.map": "/clinapse/static/css/2.4c63bfce.chunk.css.map",
+    "static/js/2.c8ae8a8f.chunk.js.LICENSE.txt": "/clinapse/static/js/2.c8ae8a8f.chunk.js.LICENSE.txt",
+    "static/media/aboutBg.5deed7a7.png": "/clinapse/static/media/aboutBg.5deed7a7.png",
+    "static/media/couple.77b29e76.png": "/clinapse/static/media/couple.77b29e76.png",
+    "static/media/divider-large.ecad8192.svg": "/clinapse/static/media/divider-large.ecad8192.svg",
+    "static/media/divider-white.c42071ba.svg": "/clinapse/static/media/divider-white.c42071ba.svg",
+    "static/media/homeBg.ce754465.png": "/clinapse/static/media/homeBg.ce754465.png",
+    "static/media/logo.3b02852e.svg": "/clinapse/static/media/logo.3b02852e.svg",
+    "static/media/mail.b5ad39f0.svg": "/clinapse/static/media/mail.b5ad39f0.svg",
+    "static/media/reviewsBg.5466bb9b.png": "/clinapse/static/media/reviewsBg.5466bb9b.png",
+    "static/media/slick-theme.css": "/clinapse/static/media/slick.c94f7671.ttf",
+    "static/media/sliderBg.134430f6.png": "/clinapse/static/media/sliderBg.134430f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1823066.js",
+    "static/css/2.4c63bfce.chunk.css",
+    "static/js/2.c8ae8a8f.chunk.js",
+    "static/js/main.b78bbf53.chunk.js"
+  ]
+}
