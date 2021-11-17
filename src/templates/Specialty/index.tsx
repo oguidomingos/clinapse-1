@@ -1,11 +1,10 @@
-import sliderBg from "../../assets/sliderBg.png";
-import dividerImg from "../../assets/divider-large.svg";
+import specialtyBg from "../../assets/specialtyBg.png";
 
 import { Container, MediaArea, Text } from "./style";
 
 export default function Specialty() {
   return (
-    <Container background={sliderBg} id='specialty'>
+    <Container background={specialtyBg} id="specialty">
       <MediaArea>placeholder video</MediaArea>
       <Text>
         <h1>Especialidade</h1>
@@ -20,7 +19,6 @@ export default function Specialty() {
           pulvinar mi. In maximus sit amet lorem at molestie.
         </p>
       </Text>
-      <img src={dividerImg} alt="" />
     </Container>
   );
 }

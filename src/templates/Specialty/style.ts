@@ -47,26 +47,22 @@ export const Container = styled.div<{ background: string }>`
   background-size: cover;
   display: flex;
   height: 100vh;
+  gap: 96px;
   padding: 86px 256px;
 
-  img {
-    position: absolute;
-    right: 0;
-    top: 32px;
-    transform: rotate(180deg);
-  }
-
-  @media (max-width: 1366px) {
-    padding: 82px;
+  @media (max-width: 1440px) {
+    padding: 96px;
     gap: 32px;
+    background-size: 110% 100%;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    background-size: cover;
+  }
+
+  @media (max-width: 1024px) {
     padding: 32px;
     flex-direction: column-reverse;
-
-    img {
-      display: none;
-    }
+    background-size: cover;
   }
 `;

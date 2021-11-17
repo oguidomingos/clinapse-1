@@ -55,6 +55,25 @@ export const Container = styled.main<{ background: string }>`
     font-size: 1.4rem;
     padding-bottom: 20px;
     align-self: center;
+
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+    @keyframes floating {
+      0% {
+        transform: translate(0, 0px);
+      }
+      50% {
+        transform: translate(0, 15px);
+      }
+      100% {
+        transform: translate(0, -0px);
+      }
+    }
   }
 
   @media (max-width: 768px) {

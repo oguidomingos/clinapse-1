@@ -8,7 +8,6 @@ const sliderItems = [
   { position: 1, name: "Psicologia Clínica" },
   { position: 2, name: "Reabilitação Cognitiva" },
   { position: 3, name: "Acompanhamento terapêutico" },
-  { position: 4, name: "Saúde Mental e Bem-estar" },
 ];
 
 export default function Services() {

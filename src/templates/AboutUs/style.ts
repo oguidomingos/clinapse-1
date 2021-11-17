@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ImageArea = styled.div`
-  /* flex: 1; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,8 +9,8 @@ export const ImageArea = styled.div`
   padding: 156px 244px;
 
   div {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -57,7 +56,6 @@ export const Text = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  /* background: purple; */
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -65,12 +63,13 @@ export const Content = styled.div`
 `;
 
 export const Container = styled.div<{ background?: string }>`
+  position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;
   background: ${(props) => `url(${props.background})`} no-repeat center;
   background-size: cover;
-  padding: 64px 0;
+  padding: 64px 0 64px 32px;
 
   overflow: hidden;
 
@@ -80,9 +79,19 @@ export const Container = styled.div<{ background?: string }>`
     color: #802936;
   }
 
-  img {
-    width: 20%;
+  > img {
+    position: absolute;
+    top: 10%;
+    width: 30%;
     height: 40px;
+    left: -5%;
+  }
+
+  @media (min-width: 768px) and (max-width: 1440px) {
+    img {
+      width: 80%;
+      left: -30%;
+    }
   }
 
   @media (max-width: 768px) {
@@ -90,7 +99,8 @@ export const Container = styled.div<{ background?: string }>`
       padding-left: 24px;
     }
     img {
-      width: 80%;
+      width: 60%;
+      top: 20%;
     }
   }
 `;

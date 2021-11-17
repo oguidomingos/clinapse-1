@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Social = styled.div`
   align-self: center;
   text-align: center;
-
+  margin: 64px 0 0 42px;
   h1 {
     font-size: 2.5rem;
     margin-bottom: 32px;
@@ -97,7 +97,7 @@ export const EmailArea = styled.div`
   border-radius: 16px;
   padding: 16px 32px;
   gap: 32px;
-  margin: 0 auto;
+  margin: 64px auto 0;
   max-width: 1200px;
   background: rgba(255, 255, 255, 0.8);
 
@@ -106,6 +106,7 @@ export const EmailArea = styled.div`
     gap: 16px;
     flex-direction: column;
     align-items: center;
+    margin: 32px auto 0;
 
     form {
       padding: 32px 0;
@@ -132,7 +133,7 @@ export const Container = styled.div<{ background: string }>`
   background: ${(props) => `url(${props.background})`} no-repeat center;
   background-size: cover;
   color: #fafafa;
-  padding: 64px 128px;
+  padding: 86px 128px;
 
   > img {
     width: 360px;
@@ -140,7 +141,7 @@ export const Container = styled.div<{ background: string }>`
     position: absolute;
     transform: rotate(90deg);
     left: 0;
-    bottom: 58%;
+    top: 5%;
   }
 
   > h1 {
@@ -148,7 +149,7 @@ export const Container = styled.div<{ background: string }>`
   }
 
   @media (max-width: 768px) {
-    padding: 16px;
+    padding: 48px 16px;
     h1 {
       font-size: 2.5rem;
     }
