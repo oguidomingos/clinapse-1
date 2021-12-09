@@ -16,7 +16,7 @@ export const ImageArea = styled.section`
 
   img {
     object-fit: contain;
-    max-width: 280px;
+    max-width: 480px;
   }
 
   .main {
@@ -86,12 +86,14 @@ export const TextArea = styled.section`
 
   h1 {
     font-size: 2.6rem;
+    color: #242424;
   }
   span {
     font-size: 1.8rem;
   }
   p {
     font-size: 1.4rem;
+    color: #242424;
   }
 
   @media (max-width: 1366px) {
@@ -151,10 +153,37 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   height: 92%;
-  background: url(${sliderBg}) no-repeat center;
   background-size: cover;
+  background-color: white;
 
   @media (max-width: 1366px) {
     height: 92%;
   }
 `;
+
+export const ButtonArea = styled.section`
+  display: flex;
+  gap: 32px;
+  position: relative;
+  top: 3rem;
+  
+  a {
+    text-decoration: none;
+    color: #000;
+    max-width: 280px;
+    width: 100%;
+    top: 3rem;
+    text-align: left;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #802936;
+
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+

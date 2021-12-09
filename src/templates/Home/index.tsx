@@ -11,9 +11,10 @@ export default function Home() {
     <Container background={homeBg}>
       <Header />
       <Content>
-        <span>Valorizando a Longevidade</span>
+        <span>Psicologia e Neuropsicologia</span>
         <h1>
-          Receba suporte psicológico no seu dia-a-dia. Especialização Geriátrica
+        Entender quem você ama é o principal passo para a mudança.
+
         </h1>
         <ButtonArea>
           <LinkButton
