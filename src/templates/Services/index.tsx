@@ -5,8 +5,8 @@ import { Container, Menu } from "./style";
 
 const sliderItems = [
   { position: 0, name: "Diagnóstico Neuropsicológico para Idosos" },
-  { position: 1, name: "Psicologia Clínica" },
-  { position: 2, name: "Reabilitação Neurocognitiva" },
+  { position: 1, name: "Reabilitação Neurocognitiva" },
+  { position: 2, name: "Psicologia Clínica" },
   { position: 3, name: "Acompanhamento terapêutico" },
 ];
 

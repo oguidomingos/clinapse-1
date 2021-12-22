@@ -8,16 +8,23 @@ export const Text = styled.div`
   flex: 1;
   color: #fafafa;
   text-align: right;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20%;
+  max-width: 600px;
+  text-align: center;
+  
 
   h1 {
-    font-size: 5rem;
+    font-size: 4.0rem;
+    padding-right: 138px;
   }
   span {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #cf465b;
   }
   p {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
   }
 
   @media (max-width: 768px) {

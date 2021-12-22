@@ -5,18 +5,16 @@ import { Container, MediaArea, Text } from "./style";
 export default function Specialty() {
   return (
     <Container background={specialtyBg} id="specialty">
-      <MediaArea>placeholder video</MediaArea>
+      
       <Text>
-        <h1>Especialidade</h1>
-        <span>Temos uma vasta experiência no mercado</span>
+        <h1>Sobre nós</h1>
+        <span>A Clinapse surgiu com o intuito de unir duas áreas da psicologia:</span>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          hendrerit non felis sed tempus. Nullam eget ex a enim rutrum ornare
-          nec vel libero. Suspendisse vulputate augue quis sapien venenatis
-          scelerisque. Donec risus risus, volutpat egestas erat ut, elementum
-          euismod justo. Nullam eu fringilla nisl, id pulvinar mi. Donec ut
-          interdum dolor. Nullam a nunc ultrices, pulvinar mauris vitae,
-          pulvinar mi. In maximus sit amet lorem at molestie.
+        a psicologia clínica e a neuropsicologia, que em conjunto, possuem grande potencial no tratamento de pessoas
+    com déficits neurológicos e cognitivos que impactuam na sua qualidade de vida e consequentemente de suas familias. Por isso, a metodologia utilizada na Clinapse promove técnicas
+    que oferecem tratamentos completamente personalizados e adaptados ao paciente e a família. Dessa forma, o propósito da Clinapse é proporcionar o autoconhecimento, a
+    autonomia, a independência e a reinserção do paciente no seu cotidiano.
+
         </p>
       </Text>
     </Container>

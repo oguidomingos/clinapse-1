@@ -16,19 +16,12 @@ export const ImageArea = styled.section`
 
   img {
     object-fit: contain;
-    max-width: 480px;
+
+    
+
   }
 
-  .main {
-    grid-area: main;
-    height: 100%;
-  }
-  .second {
-    grid-area: second;
-  }
-  .third {
-    grid-area: third;
-  }
+  
 
   @media (min-width: 1920px) {
     right: 15%;
@@ -45,22 +38,25 @@ export const ImageArea = styled.section`
     justify-content: center;
     top: 80%;
     right: 15%;
+    
 
     img {
-      max-width: 280px;
+      max-width: 480px;
     }
   }
 
   @media (min-width: 725px) and (max-width: 1366px) {
     margin: 0 auto;
     display: flex;
-    top: 90%;
+    top: 30%;
     width: 100%;
-    right: 0;
+    
 
     img {
       max-width: 240px;
       max-height: 240px;
+      position: relative;
+
     }
   }
 
@@ -83,21 +79,23 @@ export const TextArea = styled.section`
   flex-direction: column !important;
   gap: 32px;
   max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 
   h1 {
     font-size: 2.6rem;
     color: #242424;
   }
   span {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #242424;
   }
 
   @media (max-width: 1366px) {
-    max-width: 550px;
+    max-width: 700px;
   }
 
   @media (max-width: 768px) {
@@ -115,7 +113,7 @@ export const TextArea = styled.section`
 `;
 
 export const Carousel = styled(Slider)`
-  height: 90%;
+  height: 100%;
   width: 100%;
   display: flex;
 
@@ -129,7 +127,7 @@ export const Carousel = styled(Slider)`
     justify-content: center;
 
     span {
-      color: #cf465b;
+      color: #802936;
     }
   }
 
@@ -163,9 +161,10 @@ export const Container = styled.div`
 
 export const ButtonArea = styled.section`
   display: flex;
-  gap: 32px;
+  gap: 20px;
   position: relative;
-  top: 3rem;
+  top: 2.5rem;
+  margin: 0 auto;
   
   a {
     text-decoration: none;
@@ -186,4 +185,18 @@ export const ButtonArea = styled.section`
   }
 `;
 
+export const SmContainer = styled.section`
+  display: flex;
+  position: relative;
+  top: 1.5rem;
 
+  a {
+    text-decoration:none;
+    color: #000;
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    border: solid 1px #242424;
+
+  }
+` 

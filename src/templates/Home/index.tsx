@@ -13,7 +13,7 @@ export default function Home() {
       <Content>
         <span>Psicologia e Neuropsicologia</span>
         <h1>
-        Entender quem você ama é o principal passo para a mudança.
+        Atendimento Humanizado e Personalizado pra você!
 
         </h1>
         <ButtonArea>

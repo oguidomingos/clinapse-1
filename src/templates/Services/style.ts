@@ -42,6 +42,9 @@ export const Menu = styled.nav`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
+  max-height: 100vh;
   background: pink;
+  margin: 0;
+  top: 0;
 `;

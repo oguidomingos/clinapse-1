@@ -97,8 +97,8 @@ export const EmailArea = styled.div`
   border-radius: 16px;
   padding: 16px 32px;
   gap: 32px;
-  margin: 64px auto 0;
-  max-width: 1200px;
+  margin: 170px auto 0;
+  max-width: 900px;
   background: rgba(255, 255, 255, 0.8);
 
   @media (max-width: 768px) {
@@ -145,7 +145,7 @@ export const Container = styled.div<{ background: string }>`
   }
 
   > h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   @media (max-width: 768px) {

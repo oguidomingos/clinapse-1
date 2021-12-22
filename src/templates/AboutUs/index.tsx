@@ -6,23 +6,15 @@ import { Container, Content, Text, ImageArea } from "./style";
 export default function AboutUs() {
   return (
     <Container background={aboutBg} id="about-us">
-      <h1>Sobre Nós</h1>
+      <h1>Como entregamos valor</h1>
       <img src={dividerImg} alt="Divider" />
       <Content>
         <Text>
-          <span>Conheça um pouco sobre a nossa história</span>
+          <span>Para nós, um atendimento humanizado, acolhedor e acompanhado de uma visão global sobre a situação de cada pessoa são os pilares para conseguirmos a confiança de nossos pacientes e, consequentemente, o êxito nos tratamentos.</span>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            dui tellus, fringilla eget aliquam nec, porta in purus. Integer sed
-            mattis metus. Nulla blandit lobortis ipsum, vel mollis turpis
-            sollicitudin eget. Suspendisse vitae nulla tellus. Nunc in erat ut
-            enim accumsan porttitor. Duis in tempor felis, interdum sodales leo.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            dui tellus, fringilla eget aliquam nec, porta in purus. Integer sed
-            mattis metus. Nulla blandit lobortis ipsum, vel mollis turpis
-            sollicitudin eget. Suspendisse vitae nulla tellus. Nunc in erat ut
-            enim accumsan porttitor. Duis in tempor felis, interdum sodales leo.
+          Por isso, nosso trabalho envolve não apenas o idoso, mas a família e os cuidadores que possuem uma relação próxima com o mesmo. Dessa forma, nossa missão é fazer com que a complexidade mental do indivíduo seja compreendida, facilitando assim, a convivência, o entendimento e buscando a reinserção do idoso em seu seio familiar. Além do tratamento neuropsicológico, que procura estagnar o avanço de doenças, oferecemos também, em conjunto, a atuação da psicoterapia e do Acompanhamento Terapêutico, a fim de que o paciente tenha sua saúde mental como uma grande aliada nesse processo.
+
           </p>
         </Text>
         <ImageArea>
